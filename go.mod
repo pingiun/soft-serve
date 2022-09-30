@@ -16,7 +16,7 @@ require (
 	github.com/go-git/go-git/v5 v5.4.3-0.20210630082519-b4368b2a2ca4
 	github.com/matryer/is v1.4.0
 	github.com/muesli/reflow v0.3.0
-	github.com/muesli/termenv v0.13.0
+	github.com/muesli/termenv v0.12.0
 	github.com/sergi/go-diff v1.1.0
 	golang.org/x/crypto v0.0.0-20220826181053-bd7e27e6170d
 )
@@ -78,3 +78,5 @@ require (
 
 // see https://github.com/sergi/go-diff/issues/123
 exclude github.com/sergi/go-diff v1.2.0
+
+exclude github.com/muesli/termenv v0.13.0
