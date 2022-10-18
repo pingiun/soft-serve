@@ -114,6 +114,11 @@ OUT:
 		if anon > ac {
 			ac = anon
 		}
+		for _, c := range r.Collabs {
+			if c == u.Name {
+				return ac
+			}
+		}
 		for _, rr := range u.CollabRepos {
 			if rr == r.Repo {
 				return ac
